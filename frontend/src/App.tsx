@@ -1,5 +1,3 @@
-
-// src/App.tsx
 import React from 'react';
 import { BrowserRouter, Routes, Route, Navigate, useLocation } from 'react-router-dom';
 import { useAuth } from './hooks/useAuth';
@@ -10,7 +8,6 @@ import DashboardLayout from './components/layout/DashboardLayout';
 // Auth Pages
 import Login from './pages/auth/Login';
 import Register from './pages/auth/Register';
-
 // Dashboard Pages
 import Overview from './pages/dashboard/Overview';
 import Domains from './pages/dashboard/Domains';
